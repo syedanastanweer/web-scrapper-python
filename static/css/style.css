@@ -1,0 +1,51 @@
+.full-height {
+    height: 80vh;
+}
+
+.loading-message {
+    display: none;
+}
+
+.webscrap h1 {
+    font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.btn-download {
+    background-color: #146c43;
+    color: #ffffff;
+}
+
+.btn-download:hover {
+    background-color: transparent;
+    color: #146c43;
+    border: 1px solid #146c43;
+}
+
+.downloaddiv {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-custom {
+    background-color: transparent !important;
+    color: #000000 !important;
+    border: 1px solid #22bb33;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.btn-custom:hover {
+    background-color: #22bb33 !important;
+    color: #ffffff !important;
+    border: 1px solid #22bb33;
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
